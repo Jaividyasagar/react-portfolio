@@ -17,7 +17,7 @@ export const projects = [
     title: "Professional Portfolio 2023",
     desc: "A professional portfolio site which gives informations about me, my skills, certifications, services providing, qualifications and contact information",
     live: "https://jaividyasagar.netlify.app/",
-    github: "",
+    github: "https://github.com/Jaividyasagar/react-portfolio",
   },
   {
     thumbnail: diabetesPrediction,
