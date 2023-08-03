@@ -1,55 +1,18 @@
 import React from "react";
 import Cover from "../../assets/img/covers/cover.jpg";
-import LinkedIn from "../../assets/svg/linkedin.svg";
-import LeetCode from "../../assets/svg/leetcode.svg";
-import GitHub from "../../assets/svg/github.svg";
-import Instagram from "../../assets/svg/instagram.svg";
-import Whatsapp from "../../assets/svg/whatsapp.svg";
 import ArrowDownwardIcon from "@mui/icons-material/ArrowDownward";
+import { socialLinks } from "../../assets/data/socialLinks";
+import SocialLink from "./SocioLink";
 
 const Home = () => {
+  const programmer = "{Programmer}";
   return (
     <React.Fragment>
       <section className="home section" id="home">
         <div className="home__container container grid">
           <div className="home__content grid">
             <div className="home__social">
-              <a
-                href="https://www.linkedin.com/in/jaividyasagar/"
-                target="_blank"
-                className="home__social-icon"
-              >
-                <img src={LinkedIn} width={20} alt="" />
-              </a>
-              <a
-                href="https://leetcode.com/Jaividyasagar/"
-                target="_blank"
-                className="home__social-icon"
-              >
-                <img src={LeetCode} alt="" />
-              </a>
-              <a
-                href="https://github.com/Jaividyasagar/"
-                target="_blank"
-                className="home__social-icon"
-              >
-                <img src={GitHub} alt="" />
-              </a>
-              <a
-                href="https://instagram.com/jaividyasagar/"
-                target="_blank"
-                className="home__social-icon"
-              >
-                <img src={Instagram} alt="" />
-              </a>
-
-              <a
-                href="https://wa.me/+919500442237?text=Hey Jai Vidyasagar R"
-                target="_blank"
-                className="home__social-icon"
-              >
-                <img src={Whatsapp} alt="" />
-              </a>
+              {socialLinks.map((s, idx) => <SocialLink key={idx} name={s.name} link={s.link} icon={s.icon} className1={"home__social-icon"} className2={""}/>)}
             </div>
 
             <div className="home__img">
@@ -59,7 +22,7 @@ const Home = () => {
             <div className="home__data">
               <h1 className="home__title">Hey, I'm Jai Vidyasagar R</h1>
               <h3 className="home__subtitle">
-                Full Stack Developer | Programmer | <span>Designer</span>
+                Full Stack Developer | {programmer} | <span>Designer</span>
               </h3>
               <p className="home__description">
                 Experiencing in Full-Stack web design and development knowledge,

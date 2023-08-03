@@ -29,7 +29,7 @@ const Projects = () => {
             >
               {projects.map((p, idx) => {
                 return (
-                  <SwiperSlide>
+                  <SwiperSlide key={idx}>
                     <Proj
                       key={idx}
                       thumbnail={p.thumbnail}

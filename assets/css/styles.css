@@ -952,6 +952,7 @@ Accordion sx {
 }
 
 .portfolio__title {
+    color: black;
     font-size: var(--h3-font-size);
     margin-bottom: var(--mb-0-5);
 }

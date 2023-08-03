@@ -19,7 +19,7 @@ import pythonanywhere from '../../assets/img/skills/pythonanywhere.png';
 import react from '../../assets/img/skills/react.png';
 
 export const tech = [
-    {"name" : "React.js", "img" : react, "percentage" : "70", "flag":true, "end":"frontend"},
+    {"name" : "React.js", "img" : react, "percentage" : "80", "flag":true, "end":"frontend"},
     {"name" : "HTML", "img" : html, "percentage" : "70", "flag":true, "end":"frontend"},
     {"name" : "CSS", "img" : css, "percentage" : "60", "flag":true, "end":"frontend"},
     {"name" : "JavaScript", "img" : js, "percentage" : "60", "flag":true, "end":"frontend"},

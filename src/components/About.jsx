@@ -30,10 +30,13 @@ const About = () => {
 
             <div className="about__data">
               <p className="about__description">
-                Full Stack developer and DSA Enthusiast with extensive knowledge
+                Full-Stack developer and DSA Enthusiast with extensive knowledge
                 and experience in working in web technologies and problem
-                solving. Currently pursuing my bachelors in Computer Science and
-                Engineering at SASTRA University, Thanjavur.
+                solving. Completed my Bachelors in Computer Science and
+                Engineering at{" "}
+                <a href="https://sastra.edu/" target="_block">
+                  SASTRA University, Thanjavur.
+                </a>
               </p>
 
               <div className="about__info">

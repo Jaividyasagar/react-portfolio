@@ -1,11 +1,13 @@
 import React from "react";
 
-const SkillDetail = ({ title, number }) => {
+const SkillDetail = ({ title, number, img }) => {
   return (
     <React.Fragment>
       <div className="skills__data">
         <div className="skills__titles">
-          <h3 className="skills__name">{title}</h3>
+          <h3 className="skills__name">{title}{" "}
+          <img src={img} alt="" width={25}/>
+          </h3>
           {typeof number == "string" ? (
             <span className="skills__number">{number}%</span>
           ) : (

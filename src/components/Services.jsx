@@ -3,7 +3,9 @@ import CodeIcon from "@mui/icons-material/Code";
 import StorageIcon from "@mui/icons-material/Storage";
 import DataObjectIcon from "@mui/icons-material/DataObject";
 import CloseIcon from "@mui/icons-material/Close";
-import RadioButtonCheckedIcon from "@mui/icons-material/RadioButtonChecked";
+import { backend, frontend, psa } from "../../assets/data/serviceResp";
+import ServiceModal from "./ServiceModal";
+
 const Services = () => {
   var modal1 = document.getElementsByClassName("modal1");
   var modal2 = document.getElementsByClassName("modal2");
@@ -25,6 +27,7 @@ const Services = () => {
           <span className="section__subtitle">What I offer</span>
 
           <div className="services__container container grid">
+  
             <div className="services__content ">
               <div className="">
                 <div>
@@ -57,33 +60,7 @@ const Services = () => {
                   </i>
 
                   <ul className="services__modal-services grid">
-                    <li className="services__modal-service">
-                      <i className="uil uil-check-circle services__modal-icon">
-                        <RadioButtonCheckedIcon />
-                      </i>
-                      <p>I design and develop the server-side logic.</p>
-                    </li>
-
-                    <li className="services__modal-service">
-                      <i className="uil uil-check-circle services__modal-icon">
-                        <RadioButtonCheckedIcon />
-                      </i>
-                      <p>I ensure scalability and reliability.</p>
-                    </li>
-
-                    <li className="services__modal-service">
-                      <i className="uil uil-check-circle services__modal-icon">
-                        <RadioButtonCheckedIcon />
-                      </i>
-                      <p>I integrate with other systems.</p>
-                    </li>
-
-                    <li className="services__modal-service">
-                      <i className="uil uil-check-circle services__modal-icon">
-                        <RadioButtonCheckedIcon />
-                      </i>
-                      <p>I debug and troubleshoot.</p>
-                    </li>
+                    {backend.map((p, idx) => <ServiceModal key={idx} point={p}/>)}
                   </ul>
                 </div>
               </div>
@@ -122,33 +99,7 @@ const Services = () => {
                   </i>
 
                   <ul className="services__modal-services grid">
-                    <li className="services__modal-service">
-                      <i className="uil uil-check-circle services__modal-icon">
-                        <RadioButtonCheckedIcon />
-                      </i>
-                      <p>I develop the user interfaces.</p>
-                    </li>
-
-                    <li className="services__modal-service">
-                      <i className="uil uil-check-circle services__modal-icon">
-                        <RadioButtonCheckedIcon />
-                      </i>
-                      <p>I implement interactivity.</p>
-                    </li>
-
-                    <li className="services__modal-service">
-                      <i className="uil uil-check-circle services__modal-icon">
-                        <RadioButtonCheckedIcon />
-                      </i>
-                      <p>I ensure cross-platform compatibility.</p>
-                    </li>
-
-                    <li className="services__modal-service">
-                      <i className="uil uil-check-circle services__modal-icon">
-                        <RadioButtonCheckedIcon />
-                      </i>
-                      <p>I optimize performance.</p>
-                    </li>
+                    {frontend.map((p, idx) => <ServiceModal key={idx} point={p}/>)}
                   </ul>
                 </div>
               </div>
@@ -185,33 +136,7 @@ const Services = () => {
                   </i>
 
                   <ul className="services__modal-services grid">
-                    <li className="services__modal-service">
-                      <i className="uil uil-check-circle services__modal-icon">
-                        <RadioButtonCheckedIcon />
-                      </i>
-                      <p>I analyze problems.</p>
-                    </li>
-
-                    <li className="services__modal-service">
-                      <i className="uil uil-check-circle services__modal-icon">
-                        <RadioButtonCheckedIcon />
-                      </i>
-                      <p>I design algorithms with various data structures.</p>
-                    </li>
-
-                    <li className="services__modal-service">
-                      <i className="uil uil-check-circle services__modal-icon">
-                        <RadioButtonCheckedIcon />
-                      </i>
-                      <p>I implement and test solutions.</p>
-                    </li>
-
-                    <li className="services__modal-service">
-                      <i className="uil uil-check-circle services__modal-icon">
-                        <RadioButtonCheckedIcon />
-                      </i>
-                      <p>I continuously optimize solutions.</p>
-                    </li>
+                    {psa.map((p, idx) => <ServiceModal key={idx} point={p}/>)}
                   </ul>
                 </div>
               </div>
