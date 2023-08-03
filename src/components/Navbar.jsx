@@ -133,7 +133,7 @@ const Navbar = () => {
                 id="nav-toggle"
                 onClick={handleNavbar}
               >
-                <MenuIcon></MenuIcon>
+                <i class="uil uil-apps"><MenuIcon/></i>
               </div>
             </div>
           </nav>
