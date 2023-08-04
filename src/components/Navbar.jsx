@@ -5,6 +5,14 @@ import MenuIcon from "@mui/icons-material/Menu";
 import LightModeIcon from "@mui/icons-material/LightMode";
 import DarkModeIcon from "@mui/icons-material/DarkMode";
 import CloseIcon from "@mui/icons-material/Close";
+import HomeIcon from '@mui/icons-material/Home';
+import InfoIcon from '@mui/icons-material/Info';
+import CodeIcon from '@mui/icons-material/Code';
+import InsertDriveFileIcon from '@mui/icons-material/InsertDriveFile';
+import BadgeIcon from '@mui/icons-material/Badge';
+import WebhookIcon from '@mui/icons-material/Webhook';
+import AccountTreeIcon from '@mui/icons-material/AccountTree';
+import CallIcon from '@mui/icons-material/Call';
 
 const Navbar = () => {
   const [theme, setTheme] = useState(<DarkModeIcon />);
@@ -69,45 +77,45 @@ const Navbar = () => {
               <ul className="nav__list grid">
                 <li className="nav__item">
                   <a href="#home" className="nav__link active-link">
-                    <i className="uil uil-estate nav__icon"></i>Home
+                    <i className="uil uil-estate nav__icon"><HomeIcon/></i>Home
                   </a>
                 </li>
                 <li className="nav__item">
                   <a href="#about" className="nav__link">
-                    <i className="uil uil-user nav__icon"></i>About
+                    <i className="uil uil-user nav__icon"><InfoIcon/></i>About
                   </a>
                 </li>
                 <li className="nav__item">
                   <a href="#skills" className="nav__link">
-                    <i className="uil uil-file-alt nav__icon"></i>Skills
+                    <i className="uil uil-file-alt nav__icon"><CodeIcon/></i>Skills
                   </a>
                 </li>
 
                 <li className="nav__item">
                   <a href={Resume} className="nav__link">
-                    <i className="uil uil-file-alt nav__icon"></i>Resume
+                    <i className="uil uil-file-alt nav__icon"><InsertDriveFileIcon/></i>Resume
                   </a>
                 </li>
                 <li className="nav__item">
                   <a href="#certifications" className="nav__link">
-                    <i className="uil uil-briefcase nav__icon"></i>
+                    <i className="uil uil-briefcase nav__icon"><BadgeIcon/></i>
                     Certifications
                   </a>
                 </li>
                 <li className="nav__item">
                   <a href="#services" className="nav__link">
-                    <i className="uil uil-scenery nav__icon"></i>Services
+                    <i className="uil uil-scenery nav__icon"><WebhookIcon/></i>Services
                   </a>
                 </li>
                 <li className="nav__item">
                   <a href="#projects" className="nav__link">
-                    <i className="uil uil-scenery nav__icon"></i>Projects
+                    <i className="uil uil-scenery nav__icon"><AccountTreeIcon/></i>Projects
                   </a>
                 </li>
 
                 <li className="nav__item">
                   <a href="#contact" className="nav__link">
-                    <i className="uil uil-message nav__icon"></i>Contact
+                    <i className="uil uil-message nav__icon"><CallIcon/></i>Contact
                   </a>
                 </li>
               </ul>
@@ -133,7 +141,7 @@ const Navbar = () => {
                 id="nav-toggle"
                 onClick={handleNavbar}
               >
-                <i class="uil uil-apps"><MenuIcon/></i>
+                <i className="uil uil-apps"><MenuIcon/></i>
               </div>
             </div>
           </nav>

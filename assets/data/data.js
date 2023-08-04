@@ -17,6 +17,7 @@ import postman from '../../assets/img/skills/postman.png';
 import python from '../../assets/img/skills/python.png';
 import pythonanywhere from '../../assets/img/skills/pythonanywhere.png';
 import react from '../../assets/img/skills/react.png';
+import materialui from "../../assets/img/skills/materialui2.png"
 
 export const tech = [
     {"name" : "React.js", "img" : react, "percentage" : "80", "flag":true, "end":"frontend"},
@@ -24,6 +25,7 @@ export const tech = [
     {"name" : "CSS", "img" : css, "percentage" : "60", "flag":true, "end":"frontend"},
     {"name" : "JavaScript", "img" : js, "percentage" : "60", "flag":true, "end":"frontend"},
     {"name" : "Bootstrap", "img" : bootstrap, "percentage" : "70", "flag":true, "end":"frontend"},
+    {"name" : "Material UI", "img" : materialui, "percentage" : "80", "flag":true, "end":"frontend"},
     {"name" : "jQuery", "img" : jquery, "percentage" : "50", "flag":true, "end":"frontend"},
     {"name" : "Node.js", "img" : node, "percentage" : "70", "flag":true, "end":"backend"},
     {"name" : "Express.js", "img" : express, "percentage" : "80", "flag":true, "end":"backend"},

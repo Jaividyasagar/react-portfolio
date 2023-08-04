@@ -1,5 +1,5 @@
 import React from "react";
-import "../../assets/css/swipe.css";
+// import "../../assets/css/swipe.css";
 import "swiper/css";
 import "swiper/css/pagination";
 import "swiper/css/navigation";
@@ -21,9 +21,9 @@ const Proj = ({ thumbnail, title, desc, live, github }) => {
           target="_blank"
         >
           Live Link
-          <i className="uil uil-arrow-right button__icon">
+          {/* <i className="uil uil-arrow-right button__icon" style={{width:"100px", height:"10px"}}>
             <LaunchIcon />
-          </i>
+          </i> */}
         </a>
         <a
           href={github}
@@ -31,9 +31,9 @@ const Proj = ({ thumbnail, title, desc, live, github }) => {
           target="_blank"
         >
           GitHub
-          <i className="uil uil-github button__icon">
+          {/* <i className="uil uil-github button__icon">
             <GitHubIcon />
-          </i>
+          </i>  */}
         </a>
       </div>
     </div>

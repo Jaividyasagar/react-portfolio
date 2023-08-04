@@ -1,18 +1,19 @@
 import React from "react";
 import { Swiper, SwiperSlide } from "swiper/react";
-import "../../assets/css/swipe.css";
 import { Pagination, Navigation } from "swiper/modules";
 import "swiper/css";
 import "swiper/css/pagination";
 import "swiper/css/navigation";
 import { projects } from "../../assets/data/projects";
 import Proj from "./Proj";
+// import "../../assets/css/swipe.css";
 
 const Projects = () => {
   return (
     <React.Fragment>
-      <center>
+      {/* <center> */}
         <section className="portfolio section" id="projects">
+        {/* <section> */}
           <div className="reveal">
             <h2 className="section__title">Projects</h2>
             <span className="section__subtitle">Most recent works</span>
@@ -45,7 +46,7 @@ const Projects = () => {
             </Swiper>
           </div>
         </section>
-      </center>
+      {/* </center> */}
     </React.Fragment>
   );
 };
