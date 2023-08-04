@@ -5,7 +5,7 @@ import App from './App';
 import reportWebVitals from './reportWebVitals';
 // import '../assets/css/swipe.css';
 import "./assets/css/swipe.css"
-import './assets/css/styles.css';
+// import "./assets/css/styles.css";
 import './assets/css/bootstrap.min.css';
 // import '../assets/css/swiper-bundle.min.css';
 import 'bootstrap/dist/js/bootstrap.bundle.min';
