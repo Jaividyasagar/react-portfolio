@@ -1,10 +1,6 @@
-import React from "react";
-// import "../../assets/css/swipe.css";
 import "swiper/css";
 import "swiper/css/pagination";
 import "swiper/css/navigation";
-import GitHubIcon from "@mui/icons-material/GitHub";
-import LaunchIcon from "@mui/icons-material/Launch";
 const Proj = ({ thumbnail, title, desc, live, github }) => {
   return (
     <div className="portfolio__content grid swiper-slide">

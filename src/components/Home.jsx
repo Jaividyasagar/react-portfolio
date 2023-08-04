@@ -1,5 +1,5 @@
 import React from "react";
-import Cover from "..//assets/img/covers/cover.jpg";
+import Cover from "../assets/img/covers/cover.jpg";
 import ArrowDownwardIcon from "@mui/icons-material/ArrowDownward";
 import { socialLinks } from "../assets/data/socialLinks";
 import SocialLink from "./SocioLink";
