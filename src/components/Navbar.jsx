@@ -1,6 +1,6 @@
 import React, { useState } from "react";
-import "../../assets/css/styles.css";
-import Resume from "../../assets/pdf/Resume.pdf";
+import "../assets/css/styles.css";
+import Resume from "../assets/pdf/Resume.pdf";
 import MenuIcon from "@mui/icons-material/Menu";
 import LightModeIcon from "@mui/icons-material/LightMode";
 import DarkModeIcon from "@mui/icons-material/DarkMode";
