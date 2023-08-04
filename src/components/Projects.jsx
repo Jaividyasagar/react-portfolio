@@ -4,7 +4,7 @@ import { Pagination, Navigation } from "swiper/modules";
 import "swiper/css";
 import "swiper/css/pagination";
 import "swiper/css/navigation";
-import { projects } from "../../assets/data/projects";
+import { projects } from "../assets/data/projects";
 import Proj from "./Proj";
 // import "../../assets/css/swipe.css";
 

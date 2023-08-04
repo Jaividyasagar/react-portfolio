@@ -1,7 +1,7 @@
 import React from "react";
-import leftArrow from "../../assets/img/left-arrow.svg";
-import rightArrow from "../../assets/img/right-arrow.svg";
-import { certificates } from "../../assets/data/certificates";
+import leftArrow from "../assets/img/left-arrow.svg";
+import rightArrow from "../assets/img/right-arrow.svg";
+import { certificates } from "../assets/data/certificates";
 import Certifi from "./Certifi";
 const Certifications = () => {
   return (

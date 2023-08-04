@@ -5,7 +5,7 @@ import StorageIcon from '@mui/icons-material/Storage';
 import DataObjectIcon from '@mui/icons-material/DataObject';
 import { Accordion, AccordionDetails, AccordionSummary } from "@mui/material";
 import SkillDetail from "./SkillDetail";
-import { row1, row2, row3, tech } from "../../assets/data/data";
+import { row1, row2, row3, tech } from "../assets/data/data";
 import SkillIcons from "./SkillIcons";
 
 

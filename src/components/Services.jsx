@@ -3,7 +3,7 @@ import CodeIcon from "@mui/icons-material/Code";
 import StorageIcon from "@mui/icons-material/Storage";
 import DataObjectIcon from "@mui/icons-material/DataObject";
 import CloseIcon from "@mui/icons-material/Close";
-import { backend, frontend, psa } from "../../assets/data/serviceResp";
+import { backend, frontend, psa } from "../assets/data/serviceResp";
 import ServiceModal from "./ServiceModal";
 
 const Services = () => {

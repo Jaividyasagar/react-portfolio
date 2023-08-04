@@ -1,5 +1,5 @@
 import React from "react";
-import { socialLinks } from "../../assets/data/socialLinks";
+import { socialLinks } from "../assets/data/socialLinks";
 import SocialLink from "./SocioLink";
 
 const Footer = () => {

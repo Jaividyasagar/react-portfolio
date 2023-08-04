@@ -12,7 +12,7 @@ import Contact from "./components/Contact";
 import Footer from "./components/Footer";
 import Qualification from "./components/Qualification";
 import BackToTop from "./components/BackToTop";
-import "../assets/css/projSection.css";
+import "./assets/css/projSection.css";
 function App() {
   return (
     <React.Fragment>
