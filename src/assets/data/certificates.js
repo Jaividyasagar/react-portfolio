@@ -1,4 +1,3 @@
-import React from "react";
 import azure from "../certificates/azure-microsoft.png";
 import coursera1 from "../certificates/coursera-1.png";
 import coursera2 from "../certificates/coursera-2.png";

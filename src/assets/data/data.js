@@ -1,4 +1,3 @@
-import React, { useState } from "react";
 import html from '../../assets/img/skills/html.png';
 import css from '../../assets/img/skills/css.png';
 import bootstrap from '../../assets/img/skills/bootstrap.png';

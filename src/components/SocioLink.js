@@ -6,6 +6,7 @@ const SocialLink = ({ name, link, icon, className1, className2 }) => {
       <a
         href={link}
         target="_blank"
+        rel="noopener"
         className={className1}
       >
         <img src={icon} width={20} alt="" className={className2}/>

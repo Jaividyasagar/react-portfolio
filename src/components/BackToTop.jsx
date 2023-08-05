@@ -13,7 +13,7 @@ const BackToTop = () => {
   return (
     <React.Fragment>
       <a
-        href="#"
+        href="/#"
         className={backbtn ? "scrollup show-scroll" : "scrollup"}
         id="scroll-up"
       >

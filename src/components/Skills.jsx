@@ -10,7 +10,6 @@ import SkillIcons from "./SkillIcons";
 
 
 const Skills = () => {
-
     return <React.Fragment>
         <section className="skills section" id="skills">
             <div className="reveal">
@@ -35,6 +34,7 @@ const Skills = () => {
                                     if (t.flag  && t.end === "frontend") {
                                         return <SkillDetail key={idx} title={t.name} number={t.percentage} img={t.img}/>
                                     }
+                                    return;
                                 })}
                             </div>
                         </AccordionDetails>
@@ -57,6 +57,7 @@ const Skills = () => {
                                 if (t.flag && t.end === "backend") {
                                     return <SkillDetail key={idx} title={t.name} number={t.percentage} img={t.img}/>
                                 }
+                                return;
                             })}
                             </div>
                         </AccordionDetails>
@@ -79,6 +80,7 @@ const Skills = () => {
                                 if (t.end === "problemsolver") {
                                     return <SkillDetail key={idx} title={t.name} number={t.percentage} img={t.img}/>
                                 }
+                                return;
                              })}
                             </div>
                         </AccordionDetails>

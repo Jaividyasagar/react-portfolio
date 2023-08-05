@@ -63,6 +63,7 @@ const About = () => {
                       className="leetcode-link-icon"
                       href="https://leetcode.com/Jaividyasagar"
                       target="_blank"
+                      rel="noopener"
                       title="View my LeetCode profile"
                     >
                       🔗
