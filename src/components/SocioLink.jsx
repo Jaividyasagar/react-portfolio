@@ -5,7 +5,6 @@ const SocialLink = ({ name, link, icon, className1, className2 }) => {
     <React.Fragment>
       <a
         href={link}
-        target="_blank"
         rel="noopener"
         className={className1}
       >
