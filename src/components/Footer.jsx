@@ -36,7 +36,7 @@ const Footer = () => {
                 if (s.name !== "LeetCode" && s.name !== "GitHub") {
                   return <SocialLink key={idx} name={s.name} link={s.link} icon={s.icon} className1={"footer__social"} className2={"footer__logo"}/>
                 }
-                return;
+                return "";
               })}
 
             </div>

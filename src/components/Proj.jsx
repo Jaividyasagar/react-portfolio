@@ -4,7 +4,7 @@ import "swiper/css/navigation";
 const Proj = ({ thumbnail, title, desc, live, github }) => {
   return (
     <div className="portfolio__content grid swiper-slide">
-      <a href={live} target="_blank" rel="noopener">
+      <a href={live} target="_blank" rel="noreferrer">
         <img src={thumbnail} alt="" className="portfolio__img" />
       </a>
 
@@ -15,7 +15,7 @@ const Proj = ({ thumbnail, title, desc, live, github }) => {
           href={live}
           className="button button--flex button--small portfolio__button"
           target="_blank"
-          rel="noopener"
+          rel="noreferrer"
         >
           Live Link
           {/* <i className="uil uil-arrow-right button__icon" style={{width:"100px", height:"10px"}}>
@@ -26,7 +26,7 @@ const Proj = ({ thumbnail, title, desc, live, github }) => {
           href={github}
           className="button button--flex button--small portfolio__button"
           target="_blank"
-          rel="noopener"
+          rel="noreferrer"
         >
           GitHub
           {/* <i className="uil uil-github button__icon">
