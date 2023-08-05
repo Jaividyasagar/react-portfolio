@@ -33,7 +33,7 @@ const About = () => {
                 Full-Stack developer and DSA Enthusiast with extensive knowledge
                 and experience in working in web technologies and problem
                 solving. Completed my Bachelors in Computer Science and
-                Engineering with a CGPA of 8.02 {" "}
+                Engineering (8.02 CGPA) {" "}
                 <a href="https://sastra.edu/" target="_block">
                   SASTRA University, Thanjavur.
                 </a>
