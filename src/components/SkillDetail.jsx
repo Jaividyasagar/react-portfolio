@@ -18,12 +18,12 @@ const SkillDetail = ({ title, number, img }) => {
           {typeof number == "string" ? (
             <div
               className="skills__percentage"
-              style={{ width: `${number}` + "%" }}
+              style={{ width: `${number}%`}}
             ></div>
           ) : (
             <div
               className="skills__percentage"
-              style={{ width: "100" + "%" }}
+              style={{ width: "100%" }}
             ></div>
           )}
         </div>
