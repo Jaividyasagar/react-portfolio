@@ -34,7 +34,7 @@ const Skills = () => {
                                     if (t.flag  && t.end === "frontend") {
                                         return <SkillDetail key={idx} title={t.name} number={t.percentage} img={t.img}/>
                                     }
-                                    return;
+                                    return "";
                                 })}
                             </div>
                         </AccordionDetails>
@@ -57,7 +57,7 @@ const Skills = () => {
                                 if (t.flag && t.end === "backend") {
                                     return <SkillDetail key={idx} title={t.name} number={t.percentage} img={t.img}/>
                                 }
-                                return;
+                                return "";
                             })}
                             </div>
                         </AccordionDetails>
@@ -80,7 +80,7 @@ const Skills = () => {
                                 if (t.end === "problemsolver") {
                                     return <SkillDetail key={idx} title={t.name} number={t.percentage} img={t.img}/>
                                 }
-                                return;
+                                return "";
                              })}
                             </div>
                         </AccordionDetails>
