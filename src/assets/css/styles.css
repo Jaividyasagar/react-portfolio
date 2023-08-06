@@ -426,6 +426,7 @@ img {
 
 .home__description {
     margin-bottom: var(--mb-2);
+    color: var(--title-color);
 }
 
 /* .home__scroll {
@@ -537,7 +538,7 @@ img {
 .about__description {
     text-align: center;
     margin-bottom: var(--mb-2-5);
-
+    color: var(--title-color);
 }
 
 .about__info {
@@ -553,6 +554,7 @@ img {
 }
 
 .about__info-name {
+    color: var(--title-color);
     font-size: var(--smaller-font-size);
 
 }
@@ -755,6 +757,7 @@ Accordion sx {
     display: inline-block;
     font-size: var(--small-font-size);
     margin-bottom: var(--mb-1);
+    color: var(--title-color);
 }
 
 .qualification__calendar {
@@ -810,7 +813,9 @@ Accordion sx {
     gap: 1.5rem;
     grid-template-columns: repeat(2, 1fr);
 }
-
+.services__modal-service p {
+    color: var(--title-color);
+}
 .services__content {
     position: relative;
     background-color: var(--container-color);
@@ -954,14 +959,14 @@ Accordion sx {
 }
 
 .portfolio__title {
-    color: black;
+    color: var(--title-color);
     font-size: var(--h3-font-size);
     margin-bottom: var(--mb-0-5);
 }
 
-/* .portfolio__description {
-    margin-bottom: var(--mb-0-75);
-} */
+.portfolio__description {
+    color: var(--title-color);
+}
 
 /* .portfolio__button:hover .button__icon {
     transform: translateX(.25rem);
@@ -1490,6 +1495,7 @@ button {
         }
         .section__subtitle {
             margin-bottom: 4rem;
+            color: var(--title-color);
         }
         .header {
             top: 0;
