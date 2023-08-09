@@ -18,8 +18,9 @@ import sql from "../certificates/sql-hackerrank.png";
 import tcs from "../certificates/TCS-iON.png";
 import workshop from "../certificates/technovids-front-end-dev.png";
 import walmartIntern from "../certificates/walmart-intern.png";
-
+import sdlc from "../certificates/sdlc.jpg";
 export const certificates = [
+  sdlc,
   reactRedux,
   azure,
   walmartIntern,
