@@ -19,13 +19,18 @@ import tcs from "../certificates/TCS-iON.png";
 import workshop from "../certificates/technovids-front-end-dev.png";
 import walmartIntern from "../certificates/walmart-intern.png";
 import sdlc from "../certificates/sdlc.jpg";
+import crm from "../certificates/crm.jpg";
+import salesforce101 from "../certificates/salesforce101.jpg";
+
 export const certificates = [
   reactRedux,
   sdlc,
   azure,
+  salesforce101,
   walmartIntern,
   dsa,
   iitKanpur,
+  crm,
   coursera1,
   css,
   google,

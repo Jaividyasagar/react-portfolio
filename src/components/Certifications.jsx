@@ -3,6 +3,7 @@ import leftArrow from "../assets/img/left-arrow.svg";
 import rightArrow from "../assets/img/right-arrow.svg";
 import { certificates } from "../assets/data/certificates";
 import Certifi from "./Certifi";
+import fullStack from "../assets/certificates/Full-Stack.jpg";
 const Certifications = () => {
   return (
     <React.Fragment>
@@ -19,13 +20,13 @@ const Certifications = () => {
                 data-bs-interval="1800"
               >
                 <div className="carousel-inner">
-                  <div className="carousel-item active">
+                  {/* <div className="carousel-item active">
                     <img
                       className="carousel-cert-img d-block w-100"
-                      src="https://jaividyasagar.pythonanywhere.com/static/images/Full-Stack.jpg"
+                      src={fullStack}
                       alt="..."
                     />
-                  </div>
+                  </div> */}
                   {certificates.map((c, idx) => (
                     <Certifi key={idx} link={c} />
                   ))}
