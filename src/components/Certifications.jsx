@@ -20,13 +20,13 @@ const Certifications = () => {
                 data-bs-interval="1800"
               >
                 <div className="carousel-inner">
-                  {/* <div className="carousel-item active">
+                  <div className="carousel-item active">
                     <img
                       className="carousel-cert-img d-block w-100"
                       src={fullStack}
                       alt="..."
                     />
-                  </div> */}
+                  </div>
                   {certificates.map((c, idx) => (
                     <Certifi key={idx} link={c} />
                   ))}
