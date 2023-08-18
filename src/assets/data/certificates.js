@@ -21,10 +21,16 @@ import walmartIntern from "../certificates/walmart-intern.png";
 import sdlc from "../certificates/sdlc.jpg";
 import crm from "../certificates/crm.jpg";
 import salesforce101 from "../certificates/salesforce101.jpg";
+import htmlcss from "../certificates/html5-css3.jpg";
+import js from "../certificates/js-fundamentals.jpg";
+import javaOOP from "../certificates/oop-java.jpg";
+import databases from "../certificates/relational-databases.png";
 
 export const certificates = [
   reactRedux,
   sdlc,
+  databases,
+  javaOOP,
   azure,
   salesforce101,
   walmartIntern,
@@ -32,7 +38,9 @@ export const certificates = [
   iitKanpur,
   crm,
   coursera1,
+  js,
   css,
+  htmlcss,
   google,
   coursera2,
   fullStack,
