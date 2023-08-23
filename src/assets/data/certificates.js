@@ -25,6 +25,14 @@ import htmlcss from "../certificates/html5-css3.jpg";
 import js from "../certificates/js-fundamentals.jpg";
 import javaOOP from "../certificates/oop-java.jpg";
 import databases from "../certificates/relational-databases.png";
+import communicationFoundations from "../certificates/communication-foundations.png";
+import businessWritings from "../certificates/business-writing-principles.png";
+import betterBusinessWriting from "../certificates/better-business-writing.png";
+import plain from "../certificates/plain-language.png";
+import first90Days from "../certificates/first-90-days.png";
+import effectiveListening from "../certificates/effective-listening.png";
+import excel from "../certificates/excel-essentials.png";
+import powerpoint from "../certificates/powerpoint-quick-tips.png";
 
 export const certificates = [
   reactRedux,
@@ -53,5 +61,13 @@ export const certificates = [
   sql,
   tcs,
   workshop,
-  guvi2
+  guvi2,
+  communicationFoundations,
+  businessWritings,
+  betterBusinessWriting,
+  plain,
+  first90Days,
+  effectiveListening,
+  excel,
+  powerpoint
 ];
