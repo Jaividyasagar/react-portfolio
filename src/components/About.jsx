@@ -2,6 +2,8 @@ import React from "react";
 import Resume from "../assets/pdf/Resume.pdf";
 import AboutImg from "../assets/img/covers/about.jpg";
 import DownloadIcon from "@mui/icons-material/Download";
+import { tech } from "../assets/data/data";
+
 const About = () => {
   window.addEventListener("scroll", reveal);
   function reveal() {
@@ -56,7 +58,7 @@ const About = () => {
                 </div>
 
                 <div>
-                  <span className="about__info-title">650+</span>
+                  <span className="about__info-title">{tech[tech.length - 1].percentage}+</span>
                   <span className="about__info-name">
                     Problems Solved <br /> on LeetCode
                     <a

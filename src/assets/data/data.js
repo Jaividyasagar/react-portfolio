@@ -122,7 +122,7 @@ export const tech = [
   {
     name: "LeetCode",
     img: "",
-    percentage: 650,
+    percentage: 700,
     flag: false,
     end: "problemsolver",
   },
