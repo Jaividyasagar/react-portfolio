@@ -75,14 +75,14 @@ const About = () => {
               </div>
 
               <div className="about__buttons">
-                <a
+                {/* <a
                   download={"Resume-Jai Vidyasagar R"}
                   href="/"
                   className="button button--flex"
                 >
                   Download Resume
                   <DownloadIcon />
-                </a>
+                </a> */}
               </div>
             </div>
           </div>
