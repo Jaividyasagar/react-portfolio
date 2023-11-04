@@ -60,7 +60,7 @@ const About = () => {
                 <div>
                   <span className="about__info-title">{tech[tech.length - 1].percentage}+</span>
                   <span className="about__info-name">
-                    Problems Solved <br /> on LeetCode
+                    Problems Solvedd <br /> on LeetCode
                     <a
                       className="leetcode-link-icon"
                       href="https://leetcode.com/Jaividyasagar"
