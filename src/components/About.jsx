@@ -77,7 +77,7 @@ const About = () => {
               <div className="about__buttons">
                 <a
                   download={"Resume-Jai Vidyasagar R"}
-                  href={Resume}
+                  href="/"
                   className="button button--flex"
                 >
                   Download Resume
