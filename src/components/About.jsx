@@ -1,5 +1,5 @@
 import React from "react";
-import Resume from "../assets/pdf/Resume.pdf";
+// import Resume from "../assets/pdf/Resume.pdf";
 import AboutImg from "../assets/img/covers/about.jpg";
 import DownloadIcon from "@mui/icons-material/Download";
 import { tech } from "../assets/data/data";
@@ -60,7 +60,7 @@ const About = () => {
                 <div>
                   <span className="about__info-title">{tech[tech.length - 1].percentage}+</span>
                   <span className="about__info-name">
-                    Problems Solvedd <br /> on LeetCode
+                    Problems Solved <br /> on LeetCode
                     <a
                       className="leetcode-link-icon"
                       href="https://leetcode.com/Jaividyasagar"
@@ -75,14 +75,14 @@ const About = () => {
               </div>
 
               <div className="about__buttons">
-                {/* <a
+                <a
                   download={"Resume-Jai Vidyasagar R"}
                   href="/"
                   className="button button--flex"
                 >
                   Download Resume
                   <DownloadIcon />
-                </a> */}
+                </a>
               </div>
             </div>
           </div>
