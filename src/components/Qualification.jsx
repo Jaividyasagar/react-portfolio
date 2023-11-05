@@ -36,22 +36,19 @@ const Qualification = () => {
                 id="education"
               >
                 <div className="qualification__data">
-                  <div>
-                    <h3 className="qualification__title">
-                      Technology Analyst
-                    </h3>
-                    <span className="qualification__subtitle">
-                      Deloitte
-                    </span>
-                    <div className="qualification__calendar">
-                      <i className="uil uil-calendar-alt"></i>
-                      2023 - Present
-                    </div>
-                  </div>
-
+                  <div></div>
                   <div>
                     <span className="qualification__rounder"></span>
                     <span className="qualification__line"></span>
+                  </div>
+
+                  <div>
+                    <h3 className="qualification__title">Technology Analyst</h3>
+                    <span className="qualification__subtitle">Deloitte</span>
+                    <div className="qualification__calendar">
+                      <i className="uil uil-calendar-alt"></i>
+                      Aug 2023 - Present
+                    </div>
                   </div>
                 </div>
                 <div className="qualification__data">
