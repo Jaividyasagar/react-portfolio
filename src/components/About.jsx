@@ -1,5 +1,5 @@
 import React from "react";
-// import Resume from "../assets/pdf/Resume.pdf";
+import Resume from "../assets/pdf/Resume_Updated.pdf";
 import AboutImg from "../assets/img/covers/about.jpg";
 import DownloadIcon from "@mui/icons-material/Download";
 import { tech } from "../assets/data/data";
@@ -76,7 +76,7 @@ const About = () => {
 
               <div className="about__buttons">
                 <a
-                  download={"Resume-Jai Vidyasagar R"}
+                  download={Resume}
                   href="/"
                   className="button button--flex"
                 >
