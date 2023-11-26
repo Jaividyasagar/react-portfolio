@@ -36,7 +36,6 @@ import powerpoint from "../certificates/powerpoint-quick-tips.png";
 import platformdevelopercertified from "../certificates/Salesforce_PD1_Certified.png";
 
 export const certificates = [
-  platformdevelopercertified,
   reactRedux,
   sdlc,
   databases,
