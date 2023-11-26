@@ -4,6 +4,7 @@ import rightArrow from "../assets/img/right-arrow.svg";
 import { certificates } from "../assets/data/certificates";
 import Certifi from "./Certifi";
 import fullStack from "../assets/certificates/Full-Stack.jpg";
+import salesforcepd1 from "../assets/certificates/Salesforce_PD1_Certified.png";
 const Certifications = () => {
   return (
     <React.Fragment>
@@ -23,7 +24,7 @@ const Certifications = () => {
                   <div className="carousel-item active">
                     <img
                       className="carousel-cert-img d-block w-100"
-                      src={fullStack}
+                      src={salesforcepd1}
                       alt="..."
                     />
                   </div>
