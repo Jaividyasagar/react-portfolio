@@ -3,7 +3,6 @@ import leftArrow from "../assets/img/left-arrow.svg";
 import rightArrow from "../assets/img/right-arrow.svg";
 import { certificates } from "../assets/data/certificates";
 import Certifi from "./Certifi";
-import fullStack from "../assets/certificates/Full-Stack.jpg";
 import salesforcepd1 from "../assets/certificates/Salesforce_PD1_Certified.png";
 const Certifications = () => {
   return (
