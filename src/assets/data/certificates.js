@@ -33,7 +33,6 @@ import first90Days from "../certificates/first-90-days.png";
 import effectiveListening from "../certificates/effective-listening.png";
 import excel from "../certificates/excel-essentials.png";
 import powerpoint from "../certificates/powerpoint-quick-tips.png";
-import fullStack from "../assets/certificates/Full-Stack.jpg";
 //import platformdevelopercertified from "../certificates/Salesforce_PD1_Certified.png";
 
 export const certificates = [
