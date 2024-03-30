@@ -34,8 +34,10 @@ import effectiveListening from "../certificates/effective-listening.png";
 import excel from "../certificates/excel-essentials.png";
 import powerpoint from "../certificates/powerpoint-quick-tips.png";
 //import platformdevelopercertified from "../certificates/Salesforce_PD1_Certified.png";
+import salesforceAIAssociate from "../certificates/Salesforce_AI_Associate.png";
 
 export const certificates = [
+  salesforceAIAssociate,
   fullStack,
   reactRedux,
   sdlc,
