@@ -1,6 +1,7 @@
 import React from "react";
 import ExpandMoreIcon from '@mui/icons-material/ExpandMore';
 import CodeIcon from '@mui/icons-material/Code';
+import CloudIcon from '@mui/icons-material/Cloud';
 import StorageIcon from '@mui/icons-material/Storage';
 import DataObjectIcon from '@mui/icons-material/DataObject';
 import { Accordion, AccordionDetails, AccordionSummary } from "@mui/material";
@@ -22,7 +23,7 @@ const Skills = () => {
                         <AccordionSummary expandIcon={<ExpandMoreIcon />} aria-controls="panel1a-content" id="panel1-header">
         
                                 <div className="skills__header">
-                                        <i className="uil uil-arrow skills__icon"><CodeIcon /></i>
+                                        <i className="uil uil-arrow skills__icon"><CloudIcon /></i>
                                         <h1 className="skills__title">Salesforce Developer</h1>
                                 </div>
                             
