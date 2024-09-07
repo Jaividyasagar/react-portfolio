@@ -130,9 +130,37 @@ export const tech = [
     name: "Apex Programming",
     img: "",
     percentage: "90",
-    flag: false,
+    flag: true,
     end: "salesforce"
-  }
+  },
+  {
+    name: "Aura Framework",
+    img: "",
+    percentage: "80",
+    flag: true,
+    end: "salesforce"
+  },
+  {
+    name: "Lightning Web Components (LWC)",
+    img: "",
+    percentage: "60",
+    flag: true,
+    end: "salesforce"
+  },
+  {
+    name: "Admin",
+    img: "",
+    percentage: "80",
+    flag: true,
+    end: "salesforce"
+  },
+  {
+    name: "Integration",
+    img: "",
+    percentage: "90",
+    flag: true,
+    end: "salesforce"
+  },
 ];
 
 export const row1 = [];
