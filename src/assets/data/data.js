@@ -126,6 +126,13 @@ export const tech = [
     flag: false,
     end: "problemsolver",
   },
+  {
+    name: "Apex Programming",
+    img: "",
+    percentage: "90",
+    flag: false,
+    end: "salesforce"
+  }
 ];
 
 export const row1 = [];

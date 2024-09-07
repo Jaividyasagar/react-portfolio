@@ -17,6 +17,29 @@ const Skills = () => {
             <span className="section__subtitle">My Technical Level</span>
 
             <div className="skills__container container grid">
+                <div div className="skills__content">
+                    <Accordion sx={{backgroundColor: "hsl(var(--hue-color), 60%, 99%)"}}>
+                        <AccordionSummary expandIcon={<ExpandMoreIcon />} aria-controls="panel1a-content" id="panel1-header">
+        
+                                <div className="skills__header">
+                                        <i className="uil uil-arrow skills__icon"><CodeIcon /></i>
+                                        <h1 className="skills__title">Salesforce Developer</h1>
+                                </div>
+                            
+                        </AccordionSummary>
+                        <AccordionDetails>
+                        
+                            <div className="skills__list grid">
+                                {tech.map((t, idx) => {
+                                    if (t.flag  && t.end === "salesforce") {
+                                        return <SkillDetail key={idx} title={t.name} number={t.percentage} img={t.img}/>
+                                    }
+                                    return "";
+                                })}
+                            </div>
+                        </AccordionDetails>
+                    </Accordion>
+                </div>
                 <div className="skills__content">
                     <Accordion sx={{backgroundColor: "hsl(var(--hue-color), 60%, 99%)"}}>
                         <AccordionSummary expandIcon={<ExpandMoreIcon />} aria-controls="panel1a-content" id="panel1-header">
