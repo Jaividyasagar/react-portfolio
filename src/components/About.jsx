@@ -32,7 +32,7 @@ const About = () => {
 
             <div className="about__data">
               <p className="about__description">
-                Full-Stack developer and DSA Enthusiast with extensive knowledge
+                Working as a Salesforce Developer at Deloitte. Full-Stack developer and DSA Enthusiast with extensive knowledge
                 and experience in working in web technologies and problem
                 solving. Completed my Bachelors in Computer Science and
                 Engineering (8.02 CGPA) {" "}
