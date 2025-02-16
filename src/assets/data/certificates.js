@@ -39,12 +39,14 @@ import salesforceAdmin from "../certificates/salesforce_admin.png";
 import salesforceDataCloud from "../certificates/dataCloudConsultant.png";
 import salesforceJavaScriptDev1 from "../certificates/javaScriptDev1.png";
 import salesforceAssociate from "../certificates/associate.png";
+import salesforceAISpecialist from "../certificates/aiSpecialist.png";
 
 
 export const certificates = [
   salesforceJavaScriptDev1,
   salesforceDataCloud,
   salesforceAdmin,
+  salesforceAISpecialist,
   salesforceAIAssociate,
   salesforceAssociate,
   fullStack,
