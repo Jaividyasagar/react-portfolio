@@ -40,9 +40,10 @@ import salesforceDataCloud from "../certificates/dataCloudConsultant.png";
 import salesforceJavaScriptDev1 from "../certificates/javaScriptDev1.png";
 import salesforceAssociate from "../certificates/associate.png";
 import salesforceAISpecialist from "../certificates/aiSpecialist.png";
-
+import healthCloudAP from "../certificates/healthCloudAP.png";
 
 export const certificates = [
+  healthCloudAP,
   salesforceJavaScriptDev1,
   salesforceDataCloud,
   salesforceAdmin,
